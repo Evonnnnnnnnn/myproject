@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("please input a number \n");
+    scanf("%d",&a);
+    if( a ==1 ){
+        printf(" this is monday \n ");
+    }else if ( a == 2 ) {
+         printf(" this is tuesday \n ");
+    }else if ( a == 3 ){
+        printf(" this is wednesday \n ");
+    }else if ( a == 4 ){
+        printf(" this is thersday \n ");
+    }else if ( a == 5 ){
+        printf(" this is friday \n ");
+    }else if ( a == 6 ){
+        printf(" this is saterday \n ");
+    }else if ( a == 7 ){
+        printf(" this is sunday \n ");
+    }else {
+        printf( "this isn't \n" );
+    }
+    
+    
+    return 0;
+}
